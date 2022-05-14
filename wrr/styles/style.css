@@ -1,0 +1,111 @@
+#content
+{
+margin: 0 auto;
+max-width: 1600px;
+
+}
+.logo {
+    width: 12%;
+}
+#hero-img{
+    width: 100%;
+}
+body{
+    background-color:cornsilk;
+    }
+/* Header */
+header{
+    background-color:dimgrey;
+    text-align: left;
+    text-decoration: none; 
+}
+nav a {
+    color: cornsilk; 
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+}
+nav a:hover {
+    background-color: black;
+    color: #d9c2a3;
+} 
+.home-title{
+    color: black;
+}
+h4{
+    color: black;  
+}
+.book{
+    text-decoration: none;
+    background-color:#d9c2a3;
+    color: black; 
+}
+.book:hover{
+    background-color: dimgrey;
+    color: cornsilk; 
+}
+.join{
+    text-decoration: none;
+    background-color:#d9c2a3;
+}
+.join:hover{
+    background-color: black;
+    color: cornsilk;  
+}
+
+#hero-msg h1{
+    text-align: center;   
+}
+#hero-msg h4{
+    text-align: center;   
+}
+
+.button-box{
+    text-align: center;
+}
+main section{
+    text-align: center;
+
+}
+#background {
+    height: 725px;
+    background-color:darksalmon;
+}
+.msg{
+    background-color:dimgrey;
+}
+.msg h2{
+    color: cornsilk;
+    width: 100%;
+}
+.msg p{
+    color: cornsilk;
+    width: 100%;
+}
+.icon {
+    width: 80px;
+}
+.mountains{
+    max-width: 600px;
+    text-align: left;
+  
+}
+footer{
+    background-color:dimgrey;
+    color: #d9c2a3;
+    text-decoration: none;  
+}
+
+footer h3{
+    color: #d9c2a3;  
+}
+footer a{
+    text-decoration: none;
+    color: #d9c2a3;
+    text-decoration: underline; 
+}
+footer a:hover{
+    text-decoration: underline;
+    background-color: black;
+    text-decoration: underline; 
+}
