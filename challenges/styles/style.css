@@ -1,0 +1,34 @@
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 40px 0 ;
+    text-align: center;
+    background-color: gray;
+
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  header {
+    margin: 0 auto;
+    margin: 0 auto;
+    max-width: 1500px;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    background-color: gray;
+    text-align: center;
+  }
+  
+  div img {
+    max-width: 250px;
+    border-radius: 50%;
+    border: 15px solid #343a40;
+    justify-content: center;
+  }
