@@ -138,10 +138,12 @@ grid-gap: 20px;
   background-color: red;
 } 
 .green5 { 
-  width: 100px; 
-  height: 100px; 
-  background-color: green;
   float: left;
+  width: 100px; 
+  height: 100px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: green;
   z-index: +1;
 } 
 .yellow5 {
