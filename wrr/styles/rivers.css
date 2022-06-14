@@ -78,6 +78,13 @@ nav a:hover {
     background-color:black;
     color:chartreuse;
 } 
+.content{
+    font-style: italic;
+    color: gray;
+    line-height: 180;
+    text-align: left;  
+
+}
 
 
   
