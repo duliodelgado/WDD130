@@ -175,8 +175,13 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
-.content{
+.home{
   font-style: normal;
-  text-align: left;  
-
+  text-align: left; 
+  width: 50%; 
+}
+.page2{
+  font-style: normal;
+  text-align: left; 
+  width: 50%; 
 }
