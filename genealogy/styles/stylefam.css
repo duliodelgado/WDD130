@@ -57,13 +57,15 @@ header{
 
 }
 #hero-msg h1{
-    text-align: center;
-    margin-top: 20px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 30px;
 }
 #hero-msg h4{
-    text-align: center;
+    text-align: left;
     color: gray; 
     margin-top: -20px; 
+    margin-left: px;
 }
 
 .button-box{
