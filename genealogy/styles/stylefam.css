@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Open+Sans&display=swap');
 #content
 {
 margin: 0 auto;
@@ -9,8 +8,8 @@ max-width: 1600px;
 header{
     display: grid;
     grid-template-columns: 150px auto;
-    background-color: blue;
-    opacity: .7;
+    background-color: #e07a5f;
+    opacity: .8;
     text-decoration: none;
     z-index: +11;
 
@@ -22,7 +21,7 @@ header{
 #hero {
 
     color: black;
-    background-color:aliceblue;
+    background-color:#f4f1de;
 }
 
 #hero-box{
@@ -46,7 +45,7 @@ header{
     grid-column: 2/2;
     grid-row: 1/2;
     color:Blue;
-    font-family: Helvetica, sans-serif;
+    font-family: Bona Nova, sans-serif;
     font-size: 2em;
     margin-top: 20px;
     padding: 20px;
@@ -75,12 +74,11 @@ header{
 
 body{
     background-color:white;
-    font-family: Raleway, Arial, sans-serif;
+    font-family: Open Sans, sans-serif;;
     font-size: 22px;
     margin: 20px;
     padding: 0;
     }
-
 nav{
     display: flex;
     justify-content: space-around;
@@ -107,7 +105,7 @@ nav a:hover {
 
 h4{
     color: black;
-    font-family: Raleway, Arial, sans-serif; 
+    font-family: Open Sans, sans-serif;; 
 }
 
 .book{

@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Open+Sans&display=swap');
+
 
 #content
 {
@@ -9,8 +10,8 @@ max-width: 1600px;
 header{
     display: grid;
     grid-template-columns: 150px auto;
-    background-color: blue;
-    opacity: .7;
+    background-color: #e07a5f;
+    opacity: .8;
     text-decoration: none;
     z-index: +11;
 }
@@ -28,7 +29,8 @@ header{
     display: grid;
     grid-template-columns: 2fr 10fr;
     color: black;
-    background-color:aliceblue;
+    background-color:#f4f1de;
+    margin-top: 5px;
 }
 
 #hero-box{
@@ -50,7 +52,7 @@ header{
 .families-msg h1{
     margin-top: 10;
     color: blue;
-    font-family: Helvetica, sans-serif;
+    font-family: Bona Nova, sans-serif;
     font-size: 2em;
 }
 .families-msg h4{
@@ -76,7 +78,7 @@ header{
     grid-column: 2/2;
     grid-row: 1/2;
     color:blue;
-    font-family: Helvetica, sans-serif;
+    font-family: Bona Nova, sans-serif;
     font-size: 2em;
     margin-top: 20px;
     padding: 20px;
@@ -102,7 +104,7 @@ header{
 
 body{
     background-color:white;
-    font-family: Raleway, Arial, sans-serif;
+    font-family: Open Sans, sans-serif;
     font-size: 22px;
     margin: 20px;
     padding: 0;
@@ -128,7 +130,7 @@ nav a:hover {
 
 h4{
     color: black;
-    font-family: Raleway, Arial, sans-serif; 
+    font-family: Open Sans, sans-serif; 
 }
 
 .book{
@@ -142,7 +144,7 @@ h4{
 }
 
 .book:hover {
-    background-color: dimgray;
+    background-color: #81b29a;
     color: cornsilk; 
 }
 
@@ -195,11 +197,11 @@ main section img {
 }
 
 .msg{
-    background-color:dimgrey;
+    background-color:#396E94;
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #81b29a;
     border: 10px solid #d9c2a3;
     padding: 50px 30px;
     border-radius: 5px;
