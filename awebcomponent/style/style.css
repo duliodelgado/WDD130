@@ -1,0 +1,25 @@
+body, html {
+    height: 100%;
+  }
+  .msg{
+      color: brown;
+      background-color: white;
+      font-size: 150%;
+  }
+  .msg h2{
+  color: green;
+  text-align: center;
+  }
+  .parallax {
+    /* The image used */
+    background-image: url(/awebcomponent/images/colorado_river.jpeg);
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
