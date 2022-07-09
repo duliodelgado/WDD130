@@ -1,17 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Open+Sans&display=swap');
-
-
 #content
 {
 margin: 0 auto;
 max-width: 1600px;
 }
 /* Header */
-#content1{
-background-color:#f4f1de ;
-
-}
-
 header{
     display: grid;
     grid-template-columns: 150px auto;
@@ -19,23 +12,16 @@ header{
     opacity: .8;
     text-decoration: none;
     z-index: +11;
-}
-.logo{
-    grid-template-columns: 2fr 10fr;
-    grid-column: 1/2;
-    grid-row: 1/2;
-    max-width: 90px;
+
 }
 .home-grid{
     display: grid;
-    grid-template-columns: 1fr 10fr;  
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;  
 }
 #hero {
-    display: grid;
-    grid-template-columns: 2fr 10fr;
+
     color: black;
     background-color:#f4f1de;
-    margin-top: 5px;
 }
 
 #hero-box{
@@ -44,43 +30,12 @@ header{
     padding-top: 5px;
     z-index: 2;
     margin-top: 5px;
-}  
-.families-box{
-    grid-column: 1/2;
-    grid-row: 1/2;
-    padding-top: 5px;
-    z-index: 2;
-    margin-top: 5px;
-    color: gray;
-    border: 5px solid #d9c2a3;
-    width:  90%;
-    margin-left: 20px;
-    margin-right: 20px;
-} 
-
-
-.families-msg h1{
-    margin-top: 10;
-    color: blue;
-    font-family: Bona Nova, sans-serif;
-    font-size: 2em;
-    margin-left: 30px;
-}
-.families-msg h4{
-    margin-top: 10;
-    color: gray;
-    margin-left: 30px;
-}
-#hero-img{
-    width: 80%;
-    margin-left: 80px;
-    margin-top: 40px;
 }   
-#families-img{
-    width: 99%;
-    margin-left: 10px;
-    margin-top: 10px;
-} 
+#hero-img{
+    width: 60%;
+    margin-left: 80px;
+    margin-top: 20px;
+}   
 
 #hero-msg{
     margin-top: 5px;
@@ -89,41 +44,44 @@ header{
 .home-title{
     grid-column: 2/2;
     grid-row: 1/2;
-    color:blue;
+    color:Blue;
     font-family: Bona Nova, sans-serif;
     font-size: 2em;
     margin-top: 20px;
     padding: 20px;
+    align-content: center;
 }
 .home-text{
     font-size: 1em;
-    margin-left: -100px;
+    text-align: left;
+    margin-left: 50px;
+
 }
 #hero-msg h1{
     text-align: left;
-    margin-top: 20px;
- 
+    margin-top: 10px;
+    margin-left: 30px;
 }
 #hero-msg h4{
     text-align: left;
     color: gray; 
-    margin-top: 20px; 
-
+    margin-top: -20px; 
+    margin-left: px;
 }
 
 .button-box{
     text-align: center;
     padding: 40px;
+    
 }
 
 body{
     background-color:white;
-    font-family: Open Sans, sans-serif;
+    font-family: Open Sans, sans-serif;;
     font-size: 22px;
     margin: 20px;
     padding: 0;
     }
-
 nav{
     display: flex;
     justify-content: space-around;
@@ -141,24 +99,31 @@ nav a:hover {
     padding-top: 5px;
     z-index: +1;
 }
+.logo {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 60%;
+    z-index: -1;
+}
 
 h4{
     color: black;
-    font-family: Open Sans, sans-serif; 
+    font-family: Open Sans, sans-serif;; 
 }
 
 .book{
+    grid-column: 2/2;
+    grid-row: 2/2;
     text-decoration: none;
     background-color:#d9c2a3;
     color: black; 
     font-size: 18px;
     padding: 15px 30px;
     border-radius: 5px;
-    text-align: center;
 }
 
 .book:hover {
-    background-color: #81b29a;
+    background-color: dimgray;
     color: cornsilk; 
 }
 
@@ -169,7 +134,6 @@ h4{
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
-    text-align: center;
 }
 .join:hover{
     background-color: black;
@@ -179,7 +143,7 @@ h4{
 
 
 .card-img {
-    border: 10px solid #d9c2a3;
+    border: 10px solid #396E94;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
 }
@@ -191,15 +155,15 @@ h4{
 .card-img, .mountains{
     width: 100%;
 }
-.rivers-card{
+.activities-card{
     grid-column: 2/4;
     grid-row: 2/3;
 }
-.camping-card{
+.trivia-card{
     grid-column: 5/7;
     grid-row: 2/3;
 }
-.rapids-card{
+.ideas-card{
     grid-column: 8/10;
     grid-row: 2/3;
 }
@@ -209,27 +173,26 @@ main section{
 main section img {
     box-sizing: border-box;
 }
-
+#background {
+    height: 50px;
+    background-color:darksalmon;
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
 .msg{
-    background-color:#396E94;
+    background-color:dimgrey;
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
-    box-shadow: 5px 5px 10px #81b29a;
-    border: 10px solid #d9c2a3;
-    padding: 50px 30px;
-    border-radius: 5px;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 40px;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 .msg h2{
-    color: white;
+    color: cornsilk;
     width: 100%;
     margin: 0;
 }
 .msg p{
-    color: white;
+    color: cornsilk;
     width: 100%;
     line-height: 1.5em;
 }
@@ -251,7 +214,7 @@ footer{
     text-decoration: none;
     background-color: #6f7364;
     padding: 25px 50px;
-    margin-top: 50px; 
+    margin-top: 200px; 
     display: flex;
     justify-content: space-around;
     align-items: center;  
@@ -295,7 +258,7 @@ footer a:hover{
         font-size: 25px;
         color: #6f7364;
     }
-    .rivers-card, .camping-card, .rapids-card { 
+    .activities-card, .trivia-card, .ideas-card { 
         margin: 50px auto;
         width: 60%;
     }
