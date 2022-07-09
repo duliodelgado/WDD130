@@ -107,7 +107,7 @@ header{
 #hero-msg h4{
     text-align: left;
     color: gray; 
-    margin-top: 20px; 
+    margin-top: -20px; 
 
 }
 
